@@ -66,6 +66,7 @@ metadata:
 type: Opaque
 data:
   mysql-root-password: bXlqbHMxMjM=   # echo -n "myjls123" | base64
+```
 ## apply secret file
 ```bash
 kubectl apply -f secret.yaml
